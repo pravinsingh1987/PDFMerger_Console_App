@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>PDFMerger</id>
+    <version>1.0.0</version>
+    <authors>PDFMerger</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0">
+        <dependency id="Microsoft.Extensions.Hosting" version="7.0.1" exclude="Build,Analyzers" />
+        <dependency id="Serilog" version="2.12.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.Console" version="4.1.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.File" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="iTextSharp" version="5.5.13.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/praveen/Downloads/PDFMerger/PDFMerger/bin/Release/net7.0/PDFMerger.runtimeconfig.json" target="lib/net7.0/PDFMerger.runtimeconfig.json" />
+    <file src="/Users/praveen/Downloads/PDFMerger/PDFMerger/bin/Release/net7.0/PDFMerger.dll" target="lib/net7.0/PDFMerger.dll" />
+  </files>
+</package>
